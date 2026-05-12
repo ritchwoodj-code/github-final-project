@@ -1,55 +1,26 @@
 # Simple Interest Calculator
 
-A small Python program that calculates simple interest from a principal amount, annual interest rate, and time period.
+A Bash script that calculates simple interest based on principal, rate, and time.
 
-## Formula
+## Project Details
+- Project Name: Simple Interest Calculator
+- Author: Joseph Ritchwood
+- Language: Bash
+- Formula: SI = (P * R * T) / 100
 
-```
-Simple Interest = (Principal × Rate × Time) / 100
-```
+## Features
+- Accepts user input for principal, rate, and time
+- Validates numeric input
+- Displays calculated simple interest
 
-Where:
-- **Principal (P)** — the original amount of money
-- **Rate (R)** — the annual interest rate as a percentage
-- **Time (T)** — the time period in years
+## How to Use
+1. Clone the repository
+2. Make the script executable: chmod +x simple-interest.sh
+3. Run: ./simple-interest.sh
+4. Enter values when prompted
 
-## Requirements
-
-- Python 3.8 or newer
-
-## Usage
-
-Clone the repo and run the script:
-
-```bash
-git clone https://github.com/ritchwoodj-code/simple-interest-calculator.git
-cd simple-interest-calculator
-python simple_interest.py
-```
-
-You will be prompted for principal, rate, and time. The program prints the calculated simple interest and the total amount.
-
-### Example
-
-```
-Simple Interest Calculator
---------------------------
-Enter principal amount: 1000
-Enter annual interest rate (%): 5
-Enter time period (years): 2
-
-Simple Interest: 100.00
-Total Amount:    1100.00
-```
-
-## Project Structure
-
-```
-simple-interest-calculator/
-├── README.md
-└── simple_interest.py
-```
+## Example
+Principal: 1000, Rate: 5, Time: 3, Simple Interest: 150
 
 ## License
-
-MIT
+Apache License 2.0. See LICENSE file.
